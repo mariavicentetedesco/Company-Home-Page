@@ -1,0 +1,139 @@
+/* Universal styles*/
+
+html {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+}
+
+/* Title */
+
+header {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+/* Nav bar*/
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    font-size: 1.5rem;
+}
+
+nav a {
+    color: black;
+}
+
+h2 {
+    font-size: 2rem;
+    text-align: center;
+    width: 100%;
+}
+
+h3 {
+    font-size: 1.5 rem;
+    text-align: center;
+    width: 100%;
+ }
+
+/* Banner */
+
+.banner {
+    display: flex;
+    background-image: url("./images/skyscrapers.jpg");
+    background-size: cover;
+    padding: 5rem 0rem;
+    flex-direction: column;
+    height: 15rem;
+}
+
+.banner h2, .banner h3 {
+    display: flex;
+    background-color: white;
+    margin: 0;
+    padding: 0.75rem;
+    justify-content: center;
+    
+}
+ .banner h2 {
+    margin-top: 4rem;
+ }
+
+/* Portfolio */
+
+.company {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+}
+
+.company img {
+   height: auto;
+   width: 200px;
+   padding: 1rem;
+}
+.company h3 {
+    min-width: 200px ;
+}
+
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Team */
+.team {
+    display: flex;
+    background-image: url("./images/blurred-road.jpg");
+    background-size: cover;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.team img {
+    display: flex;
+    height: 400px;
+    width: auto;
+    padding: 1rem;
+ }
+
+.teammate {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    flex-flow: column;
+}
+
+.teammate, .teammate h3 {
+    color: white;
+    font-size: 1.5rem;
+    width: 250px;
+    text-align: center;
+    margin: 0;
+    padding: 0.75rem;
+}
+
+.team-title {
+    display: block;
+    width: 100%;
+}
+
+/* Contact */
+
+h4 {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding-top: 2rem;
+}
